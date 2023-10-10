@@ -34,6 +34,12 @@
         .carousel-control-prev {
             cursor: pointer;
         }
+
+        @media only screen and (min-width: 1334px) and (max-width: 1579) {
+            .star-pro {
+                display: none !important;
+            }
+        }
     </style>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -82,9 +88,13 @@
                         <h1>Taj Mahal in Mixed Reality</h1>
                         <center>
                             <div class="project-star-mobile  animated zoomIn delay-2s">
-                                <i class="fas fa-trophy"></i> <b>5 Million+</b> Downloads
+                                <i class="fas fa-trophy"></i> <b>Best FYP</b> Award
                             </div>
                         </center>
+                        <div style="padding: 0px; position: inherit; background: #ffff0080; width: 120px;"
+                            class="project-star animated zoomIn delay-2s">
+                            <i class="fas fa-trophy"></i> <b>Best FYP</b> Award
+                        </div>
                         <p>
                             <b>
                                 3D Taj Mahal Model:
@@ -176,9 +186,9 @@
                             Read More
                         </button> -->
                     </div>
-                    <div class="project-star animated zoomIn delay-2s">
+                    <!-- <div class="project-star animated zoomIn delay-2s star-pro">
                         <i class="fas fa-trophy"></i> <b>Best FYP</b> Award
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="row work-double-row">
@@ -589,10 +599,8 @@
                     <div>
                         <ul>
                             <li><a href="index.html">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Portfolio</a></li>
-                            <li><a href="#">Uses</a></li>
-                            <li><a disabled href="#" style="text-decoration: line-through;">Contact</a></li>
+                            <li><a href="./about.html">About</a></li>
+                            <li><a href="./work.html">Work</a></li>
                         </ul>
                     </div>
                 </div>
