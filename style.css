@@ -112,7 +112,7 @@
 
 .work-des p {
     text-align: justify;
-    font-weight: 100;
+    /* font-weight: 100; */
 }
 
 .work-hero-img {
@@ -215,8 +215,14 @@ body {
     color: blue;
 }
 
+li a {
+    color: #444 !important;
+    text-decoration: none;
+
+}
+
 li span a {
-    color: #444;
+    color: #444 !important;
     text-decoration: none;
 
 }
